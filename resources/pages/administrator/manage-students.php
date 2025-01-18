@@ -168,6 +168,7 @@ if (isset($_POST['addStudent'])) {
                                 foreach ($courseNames as $course) {
                                     echo '<option value="' . $course["courseCode"] . '">' . $course["name"] . '</option>';
                                 }
+                                // s
                                 ?>
                             </select>
                         </div>
